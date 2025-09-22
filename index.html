@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Paws Pet Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>🐾 Happy Paws Pet Store</h1>
+    <nav>
+      <ul>
+        <li><a href="#products">Shop</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Your pet’s happiness starts here!</h2>
+    <p>Quality food, toys, and accessories for your furry friends.</p>
+    <a href="#products" class="btn">Shop Now</a>
+  </section>
+
+  <!-- Products -->
+  <section id="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://place-puppy.com/200x200" alt="Dog Food">
+        <h3>Premium Dog Food</h3>
+        <p>$25</p>
+        <button class="add-cart" data-product="Premium Dog Food">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://placekitten.com/200/200" alt="Cat Toy">
+        <h3>Cat Toy</h3>
+        <p>$10</p>
+        <button class="add-cart" data-product="Cat Toy">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://placebear.com/200/200" alt="Pet Bed">
+        <h3>Cozy Pet Bed</h3>
+        <p>$40</p>
+        <button class="add-cart" data-product="Cozy Pet Bed">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Happy Paws, we believe pets deserve the best! Our mission is to bring joy and comfort to your furry friends with top-quality products.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Happy Paws Pet Store | Built with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
